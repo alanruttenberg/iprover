@@ -159,7 +159,7 @@ void vec_lit_of_lit_list(value* lit_list_in, vec<Lit>* lits)
 {
 
   // Allocate local OCaml variable 
-  CAMLlocal1(head);
+    CAMLparam0();  CAMLlocal1(head);
 
   // Set to head of list 
   head = *lit_list_in;

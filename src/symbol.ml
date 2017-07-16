@@ -873,7 +873,7 @@ let get_type (s:symbol) = s.stype
 (*let get_key  (s:symbol) = s.name*)
 
 
-exception Symbol_fast_key_undef
+(* exception Symbol_fast_key_undef *)
 
 let get_fast_key (s:symbol) =
   match s.fast_key with
