@@ -1,0 +1,8 @@
+To compile on OSX 10.10.5
+    
+Get dependencies
+  brew install ocaml
+  brew install gcc
+    
+./configure CXX=g++-7
+make
